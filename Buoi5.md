@@ -30,7 +30,7 @@ Ngược lại với VCS dạng phân tán thì mỗi lập trình viên sẽ c�
 
 **Git** Lưu trữ dữ liệu dưới dạng một loạt "ảnh chụp" (snapshot) của một tập hợp các file, có nghĩa là mỗi khi commit (lưu lại) thì Git tiến hành chụp lại hệ thống các file thời điểm đó và lưu giữ một tham chiếu đến ảnh chụp đó, nhớ rằng các file không có thay đổi gì Git sẽ không lưu lại filê đó lần nữa mà chỉ có một liên kết đến file đã lưu ở lần trước.
 
-![Alt text](anh2.png)
+![Alt text](anh2.PNG)
 
 Repository hiểu đơn giản nó chính là cái kho lưu trữ tất cả những thông tin cần thiết để quản lý các sửa đổi và lịch sử của toàn bộ project. Repository của Git được chia thành hai loại lại remote repository và local repository.
 
@@ -58,7 +58,7 @@ Remote Repository là repository được cài đặt trên sever chuyên dụng
 
 Do repository phân thành 2 loại lại local và remote nên với những công việc bình thường thì có thể sử dụng local repository và thực hiện trên toàn bộ máy sẵn có. Khi muốn công khai nội dung công việc mà bản thân đã làm trên local repository, thì sẽ upload lên remote repository rồi công khai. Thêm nữa, thông qua remote repository cũng có thể lấy về nội dung công việc của người khác.
 
-![Alt text](anh3.png)
+![Alt text](anh3.PNG)
 
 ### **3.Branch**
 
@@ -68,11 +68,11 @@ Branch hay còn gọi là nhánh, tương ứng với các phiên bản cụ th�
 
 Branch được dùng để phát triển tính năng mới mà không làm ảnh hưởng đến code hiện tại
 
-![Alt text](anh4.png)
+![Alt text](anh4.PNG)
 
 Như trong ví dụ, master là nhánh "mặc định" của repository. Khi thực hiện một tính năng mới để tránh ảnh hưởng đến code ở branch master, bạn tạo ra một nhánh mới là new_feature.
 
-![Alt text](anh5.png)
+![Alt text](anh5.PNG)
 
 Khi thực hiện xong sẽ hợp nhất lại với nhánh master. Việc hợp nhất 2 nhánh lại được gọi là merge. Lúc này, ở tại điểm H trên nhánh master code của new_feature đã được cập nhất.
 
