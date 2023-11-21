@@ -26,7 +26,7 @@ Ngược lại với VCS dạng phân tán thì mỗi lập trình viên sẽ c�
 
 **Git** chính là hệ thống quản lý phiên bản phân tán (DVCS), với các ưu điểm: tốc độ, đơn giản, phân tán, phù hợp với dự án lớn nhỏ.
 
-![Alt text](image-5.png)
+![Alt text](anh1.png)
 
 **Git** Lưu trữ dữ liệu dưới dạng một loạt "ảnh chụp" (snapshot) của một tập hợp các file, có nghĩa là mỗi khi commit (lưu lại) thì Git tiến hành chụp lại hệ thống các file thời điểm đó và lưu giữ một tham chiếu đến ảnh chụp đó, nhớ rằng các file không có thay đổi gì Git sẽ không lưu lại filê đó lần nữa mà chỉ có một liên kết đến file đã lưu ở lần trước.
 
